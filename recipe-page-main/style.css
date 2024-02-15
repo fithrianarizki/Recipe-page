@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+    background-color: #F3E6D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+main {
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+    padding: 35px;
+    margin: 60px;
+    border-radius: 16px;
+}
+
+.omelette-img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+h1, h2 {
+    font-family: 'Young Serif';
+}
+
+h1 {
+    color: #302d2c;
+    padding: 35px 0 12px 0;
+}
+
+.description {
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+
+.prep {
+    background-color: hsl(330, 100%, 98%);
+    display: block;
+    border-radius: 5px;
+    padding: 24px;
+    margin: 25px 0px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #302d2c;
+}
+
+h3 {
+    color: #7b284f;
+}
+
+ul, li {
+    padding-left: 20px;
+}
+
+.ingredients {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 20px;
+    line-height: 30px;
+    color: #302d2c;
+}
+
+h2 {
+    color: #854632;
+}
+
+.list {
+    padding-top: 20px;
+}
+
+.instructions {
+    padding-top: 20px;
+    line-height: 26px;
+    color: #302d2c;
+}
+
+ol {
+    padding: 20px 0px 20px 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+ol li span {
+    font-weight: 600;
+}
+
+.nutri {
+    padding-top: 20px;
+}
+
+.nutri-des {
+    padding: 15px 0;
+    color: #302d2c;
+}
+
+.nutrition {
+    max-width: 900px;
+}
+
+.nutrition table {
+    display: table;
+    line-height: 4;
+}
+
+.content-table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #302d2c;
+}
+
+.row {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.first-column {
+    padding-left: 30px;
+    font-weight: 400;
+}
+
+.second-column {
+    padding-left: 50px;
+    color: #854632;
+    font-weight: 700;
+}
